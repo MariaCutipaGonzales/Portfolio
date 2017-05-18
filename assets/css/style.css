@@ -1,38 +1,27 @@
 body, html {
 	background-color: #EDEDED !important;
 }
-
-/*Style Portada*/
 #portada{
 	position: relative;
 	height: 100vh;
-	/* 	background-image: url("../img/bg.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh; */
 }
-
 .bg-white, .bg-white:hover{
 	background-color: rgb(255, 255, 255);
 	color: black;
 }
-
 #portada .container{
 	z-index: 1;
 }
-
 img[alt="bg-portada"]{
 	position: absolute;
 	height: 100%;
 	transform: scale(1.7);
 }
-
 @media (min-width: 613px){
 	img[alt="bg-portada"]{
 	width: 100%;
 	transform: scale(1.2);
 }
-
 @media (min-width: 993px){
 	img[alt="bg-portada"]{
 	width: 100%;

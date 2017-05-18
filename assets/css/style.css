@@ -1,3 +1,10 @@
 body, html {
 	background-color: #EDEDED !important;
 }
+.text-justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
+{
+	margin-bottom: 20px;
+}

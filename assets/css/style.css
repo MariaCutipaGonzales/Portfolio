@@ -1,29 +1,73 @@
 body, html {
 	background-color: #EDEDED !important;
 }
+
 #portada{
 	position: relative;
 	height: 100vh;
 }
+
 .bg-white, .bg-white:hover{
 	background-color: rgb(255, 255, 255);
 	color: black;
 }
+
 #portada .container{
 	z-index: 1;
 }
+
 img[alt="bg-portada"]{
 	position: absolute;
 	height: 100%;
 	transform: scale(1.7);
 }
+
 @media (min-width: 613px){
 	img[alt="bg-portada"]{
 	width: 100%;
 	transform: scale(1.2);
+	}
 }
+
 @media (min-width: 993px){
 	img[alt="bg-portada"]{
 	width: 100%;
 	transform: scale(1);
+	}
+}
+
+/*ABOUT*/
+.text-justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+a{
+	color: #ff9100;
+	cursor: pointer;
+}
+
+a:hover{
+	color: #fff;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+.margen10{
+	margin-top: : 10px;
+}
+
+.content{
+	margin: 0;
+}
+
+.orange-text p {
+	margin-bottom: 0;
+}
+
+.sub-title{
+	margin: 3rem 0;
 }

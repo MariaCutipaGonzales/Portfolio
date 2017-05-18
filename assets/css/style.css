@@ -71,3 +71,27 @@ img{
 .sub-title{
 	margin: 3rem 0;
 }
+
+/*PORTFOLIO*/
+#portfolio {
+	background-color: #fff;
+}
+
+#portfolio .container *{
+	margin:0;
+	padding: 0;
+}
+
+.cb-tittle{
+	padding: 2%;
+}
+
+.cb-tittle hr{
+	width: 10%;
+}
+
+.gallery{
+	padding-bottom:4%;
+}
+/*END SECTION PORTFOLIO*/
+

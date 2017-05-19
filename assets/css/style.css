@@ -1,16 +1,17 @@
-body {
-	background-color: #EDEDED !important;
-}
-
 /*Style Portada*/
 #portada{
 	position: relative;
 	height: 100vh;
 }
 
-.bg-white, .bg-white:hover{
+#portada button{
 	background-color: rgb(255, 255, 255);
-	color: black;
+	font-weight: 500;
+	font-size: 1.4rem;
+}
+
+#portada button:hover{
+	background-color: rgb(255, 255, 255);
 }
 
 #portada .container{
@@ -34,13 +35,17 @@ body {
 	font-size: 4.37rem;
 }
 
-.bold-500{
-	font-weight: 500;
-}
-
 @media(min-width: 601px){
 	.bg-portada{
 		height: 100vh;
     	transform: scale(1.09)
+   }
+}
+
+@media(min-width: 1200px){
+	.bg-portada{
+		height: 100vh;
+    	top: 0;
+    	transform: scale(1.04);
    }
 }

@@ -2,42 +2,59 @@ body, html {
 	background-color: #EDEDED !important;
 }
 
+/*PORTADA*/
 #portada{
 	position: relative;
 	height: 100vh;
 }
 
-.bg-white, .bg-white:hover{
+#portada button{
 	background-color: rgb(255, 255, 255);
-	color: black;
+	font-weight: 500;
+	font-size: 1.4rem;
+}
+
+#portada button:hover{
+	background-color: rgb(255, 255, 255);
 }
 
 #portada .container{
 	z-index: 1;
 }
 
-img[alt="bg-portada"]{
+.bg-portada{
 	position: absolute;
-	height: 100%;
-	transform: scale(1.7);
+	height: 120vh;
+    top: 2rem;
+	width: 100%;
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	transform: scale(1.07)
 }
 
-@media (min-width: 613px){
-	img[alt="bg-portada"]{
-	width: 100%;
-	transform: scale(1.2);
-	}
+.bold-700{
+	font-weight: 700;
+	font-size: 4.3rem;
 }
 
-@media (min-width: 993px){
-	img[alt="bg-portada"]{
-	width: 100%;
-	transform: scale(1);
-	}
+@media(min-width: 601px){
+	.bg-portada{
+		height: 100vh;
+    	transform: scale(1.09)
+   }
+}
+
+@media(min-width: 1200px){
+	.bg-portada{
+		height: 100vh;
+    	top: 0;
+    	transform: scale(1.04);
+   }
 }
 
 /*ABOUT*/
-
 .text-justify{
     text-align: justify;
     text-justify: inter-word;
@@ -86,10 +103,11 @@ section hr{
 .gallery{
 	padding-bottom:4%;
 }
+
 /*END SECTION PORTFOLIO*/
 #footer-port {
 	padding-top: 0;
 }
+
 footer #fb{
 	background-color: #a7aaad !important;
-}

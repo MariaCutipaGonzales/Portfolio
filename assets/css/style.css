@@ -1,4 +1,4 @@
-body, html {
+body {
 	background-color: #EDEDED !important;
 }
 
@@ -6,10 +6,6 @@ body, html {
 #portada{
 	position: relative;
 	height: 100vh;
-	/* 	background-image: url("../img/bg.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh; */
 }
 
 .bg-white, .bg-white:hover{
@@ -21,20 +17,30 @@ body, html {
 	z-index: 1;
 }
 
-img[alt="bg-portada"]{
+.bg-portada{
 	position: absolute;
-	height: 100%;
-	transform: scale(1.7);
+	height: 120vh;
+    top: 2rem;
+	width: 100%;
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	transform: scale(1.07)
 }
 
-@media (min-width: 613px){
-	img[alt="bg-portada"]{
-	width: 100%;
-	transform: scale(1.2);
+.bold-700{
+	font-weight: 700;
+	font-size: 4.37rem;
 }
 
-@media (min-width: 993px){
-	img[alt="bg-portada"]{
-	width: 100%;
-	transform: scale(1);
+.bold-500{
+	font-weight: 500;
+}
+
+@media(min-width: 601px){
+	.bg-portada{
+		height: 100vh;
+    	transform: scale(1.09)
+   }
 }

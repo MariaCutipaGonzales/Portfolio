@@ -1,16 +1,18 @@
 body, html {
 	background-color: #EDEDED !important;
 }
+
 .text-justify{
     text-align: justify;
     text-justify: inter-word;
 }
+
 a{
 	color: #ff9100;
 }
 
 a:hover{
-	color: #fff;
+	color: #ffffff;
 }
 
 img{
@@ -18,18 +20,10 @@ img{
 	height: auto;
 }
 
-.margen10{
-	margin-top: : 10px;
+.margin20{
+	margin-top: 20px;
 }
 
-.content{
-	margin: 0;
-}
-
-
-.orange-text p {
-	margin-bottom: 0;
-}
 .sub-title{
 	margin: 3rem 0;
 }

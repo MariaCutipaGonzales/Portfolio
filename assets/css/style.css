@@ -58,20 +58,6 @@ body, html {
     text-justify: inter-word;
 }
 
-a{
-	color: #ff9100;
-	cursor: pointer;
-}
-
-a:hover{
-	color: #ffffff;
-}
-
-img{
-	width: 100%;
-	height: auto;
-}
-
 .margin20{
 	margin-top: 2%;
 }
@@ -80,11 +66,7 @@ img{
 	margin: 3rem 0;
 }
 
-#portfolio {
-	background-color: #fff;
-}
-
-#portfolio .container *{
+#portfolio .content *{
 	margin:0;
 	padding: 0;
 }
